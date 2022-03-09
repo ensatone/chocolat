@@ -1,0 +1,18 @@
+@main
+arr = {1,2,3,{4,5,6},7}
+[arr{3,0},syswriteln]
+[[arr,size],syswriteln]
+
+newarr = [arr,clonelist]
+[newarr{3,0},syswriteln]
+[newarr,pop]
+[[newarr,size],syswriteln]
+
+[8,newarr,append]
+[[newarr,size],syswriteln]
+[[newarr{[newarr,size]-1]},syswriteln]
+
+["hello.txt","abcd",writefile]
+text = ["hello.txt",readfile]
+[text,syswriteln]
+@

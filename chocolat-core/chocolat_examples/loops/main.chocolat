@@ -1,0 +1,28 @@
+@main
+for (i,1,10,1)
+ [for.i,syswrite]
+endf
+["",syswriteln]
+
+for (j,1,10,1)
+ if (for.j == 3)
+  continue
+ elif (for.j == 5)
+  break
+ else
+  [for.j,syswrite]
+ end
+endf
+["",syswriteln]
+
+for (k,10,1,1)
+ [for.k,syswrite]
+endf
+["",syswriteln]
+
+r = 0
+while (r<5)
+ r = r + 1
+ [r,syswrite]
+endw
+@

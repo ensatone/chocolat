@@ -1,0 +1,8 @@
+@func
+return = p1 + p2
+@
+
+@main
+[func(1,2),syswrite]
+["",syswriteln]
+@

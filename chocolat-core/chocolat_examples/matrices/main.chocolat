@@ -1,0 +1,38 @@
+@main
+A = {
+{1,2,3},
+{2,3,4},
+{1,2,5}
+}
+B = {
+{2,1,2},
+{3,8,4},
+{4,2,6}
+}
+C = Matrix.Add(A,B)
+C = Matrix.Substract(A,B)
+C = Matrix.Multiply(A,B)
+for (i,0,[C,size]-1,1)
+ for (j,0,[C{for.i},size]-1,1)
+  [C{for.i,for.j},syswrite]
+  [",",syswrite]
+ endf
+  ["||",syswrite]
+endf
+D = {}
+for (i,0,[A,size]-1,1)
+[{},D,append]
+ for (j,0,[A{for.i},size]-1,1)
+  [A{for.i,for.j},D{for.i},append]
+ endf
+endf
+for (i,0,[D,size]-1,1)
+ for (j,0,[D{for.i},size]-1,1)
+  [D{for.i,for.j},syswrite]
+ endf
+endf
+F = {1,2,3,4,5}
+for (f,0,[F,size]-1,1)
+ [F{for.f},syswrite]
+endf
+@

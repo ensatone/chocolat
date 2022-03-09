@@ -1,0 +1,7 @@
+@func
+["Chocolat is cool!",syswrite]
+@
+
+@main
+func()
+@

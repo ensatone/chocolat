@@ -1,0 +1,8 @@
+@main
+str = "string"
+num = 10
+arr = {"array",2,3,{1,2,3},5}
+[str,syswrite]
+[num,syswrite]
+[arr{0},syswrite]
+@

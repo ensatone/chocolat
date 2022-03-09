@@ -1,0 +1,30 @@
+@main
+a = 1
+b = 2
+c = 3
+if ((b > a) and (c > b))
+ ["Pass1",syswrite]
+end
+["",syswriteln]
+
+if ((b > a) and (b > c))
+ ["Pass2",syswrite]
+elif ((b < a) and (b > c))
+else
+ ["Pass2",syswrite]
+end
+["",syswriteln]
+
+d = (a==b)
+if (d == "false")
+ ["Pass3",syswrite]
+elif (d == "true")
+ ["Pass3",syswrite]
+end
+["",syswriteln]
+
+if ((c == 1) or (c == 3) or (c == 4))
+ ["Pass4",syswrite]
+end
+["",syswriteln]
+@

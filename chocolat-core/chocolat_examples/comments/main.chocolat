@@ -1,0 +1,4 @@
+@main
+#Some comments here#
+["Comments are cool!",syswrite]
+@

@@ -1,0 +1,14 @@
+@func
+:d = :b + :c
+@
+
+@main
+obj A
+:a = "Chocolat!"
+[A.a,syswriteln]
+
+:b = 1
+:c = 2
+func()
+[A.d,syswriteln]
+@

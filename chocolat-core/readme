@@ -1,0 +1,8 @@
+This is the educational toy programming language made by me, Ensatone...
+This includes the concepts of lexer,parser and interpreter
+The implementation is not thorough and it is only made to understand the steps and algorithms behind how a programming language works
+The compiler is written in io language so the user needs to download iolang and extract the files into the chocolat-core folder
+To compile the user's source code, the user needs to type "io chocolatc.io" in the command line
+To run the program or the produced instruction, the user needs to type "chocolat" in windows or "./chocolat" in linux in the command line
+
+Hope you enjoy!!!

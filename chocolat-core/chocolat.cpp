@@ -779,10 +779,6 @@ break;
 }
 }
 }
-void readFile(string filename)
-{
-
-}
 int main(){
 ::usingthis=false; ::usingthat=false;
 ::variables["_return"] = "0";
